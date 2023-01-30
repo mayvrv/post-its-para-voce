@@ -20,11 +20,11 @@
     }
 
     .postits_box--text {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .postits_box--date {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .emoji {
