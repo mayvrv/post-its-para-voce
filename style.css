@@ -75,6 +75,10 @@ h1 .emoji {
     display: inline-block;
 }
 
+.emoji+.emoji {
+    margin-left: 3px;
+}
+
 .postits {
     display: flex;
     flex-wrap: wrap;
