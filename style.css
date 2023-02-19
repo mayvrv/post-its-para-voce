@@ -117,13 +117,14 @@ h1 .emoji {
     width: calc(100% + 100px);
     height: 70px;
     margin-left: -50px;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 .postits_box--text {
     margin-top: -70px;
     font-size: 1.4rem;
     line-height: 1.5;
+    padding-bottom: 30px;
 }
 
 .postits_box--date {
