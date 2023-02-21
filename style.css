@@ -64,6 +64,10 @@ h1 {
     justify-content: center;
 }
 
+a {
+    word-wrap: break-word;
+}
+
 h1 .emoji {
     width: 60px;
     margin-left: 10px;
