@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Courier';
+    src: url('./fonts/Courier-BoldOblique.woff2') format('woff2'),
+        url('./fonts/Courier-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier';
+    src: url('./fonts/Courier.woff2') format('woff2'),
+        url('./fonts/Courier.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier';
+    src: url('./fonts/Courier-Oblique.woff2') format('woff2'),
+        url('./fonts/Courier-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier';
+    src: url('./fonts/Courier-Bold.woff2') format('woff2'),
+        url('./fonts/Courier-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body.icloud-notes {
+    background: #fff;
+    color: #000;
+}
+
+body.icloud-notes main {
+    max-width: 400px;
+    width: 80%;
+}
+
+.icloud-notes-espace {
+    display: block;
+    margin-bottom: 30px;
+}
