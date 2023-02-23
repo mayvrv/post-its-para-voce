@@ -94,9 +94,9 @@ h1 .emoji {
     color: #000;
     padding: 50px;
     min-height: 300px;
-    display: flex;
+    display: grid;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -128,7 +128,7 @@ h1 .emoji {
     margin-top: -20px;
     font-size: 1.4rem;
     line-height: 1.5;
-    padding-bottom: 30px;
+    justify-self: center;
 }
 
 .postits_box--date {
